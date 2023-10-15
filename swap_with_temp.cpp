@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
 
-main()
+int main()
 {
     int a, b, c;
-    a = 5;
-    b = 10;
+    cout<< "Enter 1st Int: ";
+    cin >> a;
+    cout << "Enter 2nd Int: ";
+    cin >> b;
+
 
     c = b;
     b = a;
@@ -13,4 +16,6 @@ main()
 
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
+
+    return 0;
 }

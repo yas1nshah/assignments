@@ -4,8 +4,11 @@ using namespace std;
 int main()
 {
     int a, b;
-    a = 100;
-    b = 200;
+    cout<< "Enter 1st Int: ";
+    cin >> a;
+    cout << "Enter 2nd Int: ";
+    cin >> b;
+
 
     a = a + b;
     b = a - b;
